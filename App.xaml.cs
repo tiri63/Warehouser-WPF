@@ -13,7 +13,7 @@ namespace Warehouser_WPF
     /// </summary>
     public partial class App : Application
     {
-        internal Win_Start? win_Start = null;
+        internal static Win_Start? win_Start = null;
         private void Hiro_We_Go(object sender, StartupEventArgs e)
         {
             win_Start = new();

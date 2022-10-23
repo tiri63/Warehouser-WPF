@@ -1,0 +1,14 @@
+﻿<Window x:Name="Class_Win_Main" x:Class="Warehouser_WPF.Win_Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Warehouser_WPF"
+        mc:Ignorable="d"
+        Title="Win_Main" Height="450" Width="800" Closing="Class_Win_Main_Closing" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Frame x:Name="Main_Frame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden">
+            
+        </Frame>
+    </Grid>
+</Window>

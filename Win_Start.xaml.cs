@@ -19,6 +19,7 @@ namespace Warehouser_WPF
     /// </summary>
     public partial class Win_Start : Window
     {
+        internal Win_Main? win_Main = null;
         public Win_Start()
         {
             InitializeComponent();
@@ -30,7 +31,13 @@ namespace Warehouser_WPF
 
         private void Win_Load()
         {
-
+            Dispatcher.Invoke(() =>
+            {
+                Visibility = Visibility.Hidden;
+                win_Main = new();
+                win_Main.Show();
+                
+            });
         }
     }
 }
