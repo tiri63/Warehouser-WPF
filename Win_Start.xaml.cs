@@ -24,7 +24,7 @@ namespace Warehouser_WPF
             InitializeComponent();
             new System.Threading.Thread(() =>
             {
-
+                Win_Load();
             }).Start();
         }
 
