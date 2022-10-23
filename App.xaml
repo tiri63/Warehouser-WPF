@@ -1,0 +1,11 @@
+﻿<Application x:Class="Warehouser_WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Warehouser_WPF"
+             Startup="Hiro_We_Go">
+    <Application.Resources>
+        <SolidColorBrush x:Key="AccentColor">#000000</SolidColorBrush>
+        <SolidColorBrush x:Key="BackgroundColor">#FFFFFF</SolidColorBrush>
+        <SolidColorBrush x:Key="AssistantColor">#60acef</SolidColorBrush>
+    </Application.Resources>
+</Application>
