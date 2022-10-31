@@ -10,25 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Warehouser_WPF
 {
     /// <summary>
-    /// Win_Main.xaml の相互作用ロジック
+    /// Page_Login.xaml 的交互逻辑
     /// </summary>
-    public partial class Win_Main : Window
+    public partial class Page_Login : Page
     {
-        public Win_Main()
+        public Page_Login()
         {
             InitializeComponent();
-            Main_Frame.Content = new Page_Main();
-        }
-
-
-        private void Class_Win_Main_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            Application.Current.Shutdown(0);
         }
     }
 }
